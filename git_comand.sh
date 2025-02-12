@@ -4,7 +4,7 @@ COMMIT_MESSAGE=$2
 if [[ -z "$BRANCH_NAME" ]]|| []; then
     echo "Por favor, forneça o nome da branch."
     exit 1
-fi˙
+fi
 
 if [[ "$BRANCH_NAME" != "Branch1" ]] && [[ "$BRANCH_NAME" != "Branch2" ]]; then
     echo "Erro: O nome da branch deve ser 'Branch2' ou 'Branch2'."
